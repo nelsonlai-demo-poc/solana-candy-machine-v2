@@ -82,6 +82,16 @@ ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts verify_upload \
     -c example
 ```
 
+### update candy machine:
+
+```sh
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine \
+    -e devnet \
+    -k ~/.config/solana/devnet.json \
+    -cp config.json \
+    -c example
+```
+
 ### mint one token:
 
 mint:
