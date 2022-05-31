@@ -59,3 +59,42 @@ solana config get
 ```sh
 solana airdrop 2
 ```
+
+## Candy Machine
+
+### create candy machine:
+
+```sh
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload \
+    -e devnet \
+    -k ~/.config/solana/devnet.json \
+    -cp config.json \
+    -c example \
+    ./assets
+```
+
+### verify upload
+
+```sh
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts verify_upload \
+    -e devnet \
+    -k ~/.config/solana/devnet.json \
+    -c example
+```
+
+### mint one token:
+
+mint:
+
+```sh
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_one_token \
+    -e devnet \
+    -k ~/.config/solana/devnet.json \
+    -c example
+```
+
+check:
+
+```sh
+spl-token accounts
+```
