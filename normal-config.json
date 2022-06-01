@@ -6,7 +6,13 @@
     "splTokenAccount": null,
     "splToken": null,
     "goLiveDate": "25 Dec 2021 00:00:00 GMT",
-    "endSettings": null,
+    "endSettings": {
+        "endSettingType": {
+            "date": true,
+            "amount": false
+        },
+        "value": "25 Dec 2022 00:00:00 GMT"
+    },
     "whitelistMintSettings": null,
     "hiddenSettings": null,
     "storage": "arweave-sol",
