@@ -108,3 +108,41 @@ check:
 ```sh
 spl-token accounts
 ```
+
+## Whitelist SPL Token
+
+### create:
+
+```sh
+spl-token create-token
+```
+
+### check supply:
+
+```sh
+spl-token supply <your-token-address>
+```
+
+### create account for the token
+
+```sh
+spl-token create-account <your-token-address>
+```
+
+### mint token
+
+```sh
+spl-token mint <your-token-address> <amount>
+```
+
+### check accounts
+
+```sh
+spl-token accounts
+```
+
+### transfer token
+
+```sh
+spl-token transfer <your-token-address> <amount> <target-address>
+```
