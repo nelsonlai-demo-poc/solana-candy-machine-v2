@@ -1,0 +1,29 @@
+{
+    "price": 0.01,
+    "number": 10,
+    "gatekeeper": null,
+    "solTreasuryAccount": "8DVzqCuSUWZ1Xbu8A1ncEAKQ2ocVTiHSQDTMLwztXABc",
+    "splTokenAccount": null,
+    "splToken": null,
+    "goLiveDate": "25 Dec 2021 00:00:00 GMT",
+    "endSettings": {
+        "endSettingType": {
+            "date": true,
+            "amount": false
+        },
+        "value": "25 Dec 2022 00:00:00 GMT"
+    },
+    "whitelistMintSettings": null,
+    "hiddenSettings": {
+        "name": "Hidden NFT",
+        "uri": "https://arweave.net/58bErsKdJFKfb1rv9hNJq9pqBbD1_oV-EW8jRoEDdcI",
+        "hash": "58bErsKdJFKfb1rv9hNJq9pqBbD1_oV-EW8jRoEDdcI"
+    },
+    "storage": "arweave-sol",
+    "ipfsInfuraProjectId": null,
+    "ipfsInfuraSecret": null,
+    "nftStorageKey": null,
+    "awsS3Bucket": null,
+    "noRetainAuthority": false,
+    "noMutable": false
+}
